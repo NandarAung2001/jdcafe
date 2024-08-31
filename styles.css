@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6b4f4f;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-photo/wooden-table-blurred-background_1253-180.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+header button {
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #e68a00;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #4d3d3d;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9f00;
+}
+
+/* Menu Section Styles */
+section#our-menu {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+section#our-menu h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #6b4f4f;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 5%;
+}
+
+.menu h2 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4d3d3d;
+}
+
+.menu div {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.menu h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #6b4f4f;
+}
+
+.menu p {
+    font-size: 1em;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #6b4f4f;
+}
+
+.menu button {
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.menu button:hover {
+    background-color: #e68a00;
+}
+
+/* About Us Section Styles */
+section#about-us {
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+section#about-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6b4f4f;
+}
+
+section#about-us p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+section#contact-us {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+section#contact-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6b4f4f;
+}
+
+section#contact-us p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e68a00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4d3d3d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ff9f00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #e68a00;
+}
+
+/* Back to Top Button Styles */
+.back-to-top-container {
+    flex: 1;
+    min-width: 120px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.back-to-top {
+    display: flexbox;
+    background-color: #6b4f4f;
+    color: #fff;
+    padding: 24px 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 160%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #4d3d3d;
+}
